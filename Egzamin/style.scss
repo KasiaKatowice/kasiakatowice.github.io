@@ -5,9 +5,7 @@
 }
 body{
     margin-top: 0;
-    background: url("https://cdn.pixabay.com/photo/2016/11/29/04/49/abstract-1867395__340.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(246, 255, 196);
     header{
         display: flex;
         @extend %mixins;
@@ -23,7 +21,7 @@ body{
                     text-decoration: none;
                     align-items: center;
                     color: inherit;
-                    background-color: aqua;
+                    background-color: aquamarine;
                 }
         }
     }

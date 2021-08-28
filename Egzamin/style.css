@@ -10,9 +10,7 @@ body header, body .content, body footer a {
 
 body {
   margin-top: 0;
-  background: url("https://cdn.pixabay.com/photo/2016/11/29/04/49/abstract-1867395__340.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #f6ffc4;
 }
 
 body header {
@@ -34,7 +32,7 @@ body header nav a {
       -ms-flex-align: center;
           align-items: center;
   color: inherit;
-  background-color: aqua;
+  background-color: aquamarine;
 }
 
 body .content {
