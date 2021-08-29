@@ -37,9 +37,33 @@ body header nav a {
 body .content {
   padding: 10px;
   margin: 3% auto;
-  width: 100%;
+  width: 75%;
   font-size: 20px;
   text-align: justify;
+}
+
+body section {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body section h3 {
+  color: red;
+}
+
+body section .contacts {
+  border: 2px dashed red;
+  padding: 5px;
+  margin: 5px;
+}
+
+body section .contacts a {
+  border: 2px dashed green;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  font-size: 20px;
+  color: inherit;
 }
 
 body footer {
