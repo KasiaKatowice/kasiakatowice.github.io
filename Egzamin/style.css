@@ -19,7 +19,18 @@ body header {
   padding: 0;
 }
 
-body header nav a {
+body header nav a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: brown;
+  background-color: yellow;
+}
+
+body header nav a:hover {
   border: 2px solid black;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -37,7 +48,7 @@ body header nav a {
 body .content {
   padding: 10px;
   margin: 3% auto;
-  width: 75%;
+  max-width: 1200px;
   font-size: 20px;
   text-align: justify;
 }
@@ -105,7 +116,7 @@ body footer a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
+    max-width: 1200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
