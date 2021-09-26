@@ -9,7 +9,7 @@ body header, body .content, body footer a {
 }
 
 body {
-  margin-top: 0;
+  margin-left: 100px;
 }
 
 body header {
@@ -17,6 +17,9 @@ body header {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
+}
+
+body header .foto {
   max-width: 100%;
 }
 
@@ -44,6 +47,24 @@ body header nav a:hover {
           align-items: center;
   color: inherit;
   background-color: aquamarine;
+}
+
+body p::first-letter {
+  font-size: 30px;
+}
+
+body p::first-line {
+  font-weight: bold;
+}
+
+body ::-moz-selection {
+  color: red;
+  background-color: lightcoral;
+}
+
+body ::selection {
+  color: red;
+  background-color: lightcoral;
 }
 
 body .content {

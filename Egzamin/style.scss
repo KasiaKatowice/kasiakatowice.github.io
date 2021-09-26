@@ -4,12 +4,15 @@
     align-items: center;
 }
 body{
-    margin-top: 0;
+    margin-left: 100px;
     
     header{
         display: flex;
         @extend %mixins;
         padding: 0;
+        .foto{
+            max-width: 100%;
+        }
     
         nav{ 
             a:visited{
@@ -32,6 +35,16 @@ body{
             }
 
         }
+    }
+    p::first-letter{
+        font-size: 30px;
+    }
+    p::first-line {
+        font-weight: bold;
+    }
+    ::selection {
+        color: red;
+        background-color: lightcoral;
     }
     .content{
         @extend %mixins;
