@@ -82,7 +82,6 @@ body section .contacts {
 }
 
 body section .contacts a {
-  border: 2px dashed green;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
