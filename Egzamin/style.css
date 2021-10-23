@@ -13,7 +13,6 @@ body {
 }
 
 header {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,15 +24,15 @@ header {
 }
 
 nav {
-  position: absolute;
+  position: relative;
   display: inline-block;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 0 auto;
-  width: 300 px;
-  height: 300 px;
+  width: 200 px;
+  height: 200 px;
 }
 
 nav a {
@@ -48,7 +47,7 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 8px;
+  padding: 5px;
 }
 
 nav a:hover {
