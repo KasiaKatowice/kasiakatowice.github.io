@@ -8,26 +8,24 @@ body{
 }
     header{
         display: flex;
-        text-align: center;
-        justify-content: center;
+        @extend %mixins;
         padding: 0;
+        position: relative;
     }
     nav{ 
-        position: relative;
+        position: absolute;
         display: inline-block;
         flex-direction: row;
         margin: 0 auto;
         width: 200 px;
         height: 200 px;
         a{
-            
             border: 2px solid black;
             font-size: 20px;
             background-color: beige;
             text-decoration: none;
             color: inherit;
-            justify-content: center;
-            align-items: center;
+            @extend %mixins;
             padding: 5px;
         }         
         a:hover{
