@@ -3,7 +3,7 @@
 }
 body{
     background-image: url("https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747783_960_720.jpg");
-    margin:0;
+    
 
     >nav{
         .content{
@@ -11,35 +11,38 @@ body{
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        height: 50px;
+        margin: 10px;
+        padding: 10px;
+            >figure{
+                img{
+              max-width: 100px;
+              height: 50px;
+            }
+        }
+    }
+            .item {
+                font-size: 20px;
         
-        }
-        .item {
-            font-size: 20px;
-        }
-        a{
-            border: 2px solid blue;
-            border-radius: 20px;
-            text-decoration: none;
-            color: inherit;
-            background-color: beige;
-            transition: 1s;
-        }
-        a:hover{
-            color: brown;
-
-        }
-    }  
-}  
-    >header{
+                >a{
+                    border: 2px dashed green;
+                    border-radius: 40px;
+                    text-decoration: none;
+                    color: inherit;
+                    background-color: beige;
+                    transition: 1s;
+                }
+            }
+    }
+>header{
         border: 2px dashed green;
         height: 90vh;
         display: flex;
         align-items: center;
-        background-image: url("img/woman.webp");
+        background-image: url("/img/woman.webp");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+}
         >section{
             text-align: center;
             padding-left: 10%;
@@ -55,7 +58,9 @@ body{
                 align-items: center;
                 justify-content: center;
                 font-size: 30px;
-            }     
+            }   
+        }
+          
             >h1{
             padding: 0;
             margin: 5px;
@@ -81,7 +86,6 @@ body{
         }
     
     } 
-    }
     main{
         >section{
             border: 2px dashed blue;
@@ -98,10 +102,6 @@ body{
             }
             &:nth-child(3){
                 border: 2px dashed green;
-                
             }
         }
-    }
-   
-    
-
+}
