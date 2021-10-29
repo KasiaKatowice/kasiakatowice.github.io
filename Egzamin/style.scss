@@ -1,15 +1,12 @@
-%mixins{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
 body{
-    background-image:url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;") 
+    background-image:url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;");
+    font-family: 'Times New Roman', Times, serif;
 }
     header{
-        display: flex;
-        @extend %mixins;
-        margin: 5px;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+        
     }
     nav{ 
         justify-content: space-evenly;
@@ -24,7 +21,7 @@ body{
             background-color: beige;
             text-decoration: none;
             color: inherit;
-            @extend %mixins;
+            
             
         }         
         a:hover{
@@ -46,16 +43,14 @@ body{
         background-color: lightcoral;
     }
     .content{
-        @extend %mixins;
         padding: 10px;
         margin: 10% auto; 
         max-width: 1200px;   
         font-size: 20px; 
         text-align: justify;  
-              
     }
     section{
-    font-family: 'Times New Roman', Times, serif;
+    
         h3{
         color: blue;
         transition: 1s;
@@ -78,14 +73,10 @@ body{
         position: relative;
         text-align: center;
         display: flex;
-        align-items: center;
         padding: 0;
-        left: 0;
         justify-content: center;
-        margin-top: 0;
+        
             a{
-                @extend %mixins;
-                display: flex;
                 margin: 1%;
                 padding: 1%;
                 color: inherit;
