@@ -3,9 +3,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
     header{
-        max-width: 600px;
+        max-width: 37.5rem;
         margin: auto;
         text-align: center;
+        figure{
+            margin: 0;
+        }
         
     }
     nav{ 
@@ -16,8 +19,8 @@ body{
         margin-left: 10%;
         
         a{
-            border: 2px solid black;
-            font-size: 20px;
+            border: 0.13rem solid black;
+            font-size: 1.25rem;
             background-color: beige;
             text-decoration: none;
             color: inherit;
@@ -26,14 +29,14 @@ body{
         }         
         a:hover{
             transition: 1s;
-            border: 2px solid black;      
+            border: 0.13rem solid black;      
             background-color: aquamarine;
             max-width: 100%;
             
         }
     }
     p::first-letter{
-        font-size: 30px;
+        font-size: 1.87rem;
     }
     p::first-line {
         font-weight: bold;
@@ -43,10 +46,10 @@ body{
         background-color: lightcoral;
     }
     .content{
-        padding: 10px;
+        padding: 0.63rem;
         margin: 10% auto; 
-        max-width: 1200px;   
-        font-size: 20px; 
+        max-width: 75rem;   
+        font-size: 1.25rem; 
         text-align: justify;  
     }
     section{
@@ -56,22 +59,21 @@ body{
         transition: 1s;
         }
         .contacts{
-            padding: 5px;
-            margin: 5px;
+            margin: 0.31rem;
             a{
                 justify-content: space-between;
                 text-decoration: none;
-                font-size: 20px;
+                font-size: 1.25rem;
                 color: inherit;
                 transition: 1s;
+                display: flex;
+                flex-direction: column;
             }
         }
     
     }
 
     footer{
-        position: relative;
-        text-align: center;
         display: flex;
         padding: 0;
         justify-content: center;
@@ -91,6 +93,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 1200px;
+        max-width: 75rem;
     }
 }
