@@ -8,7 +8,7 @@ body {
 }
 
 body > nav .content > figure img {
-  max-width: 100px;
+  max-width: 6.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,10 +20,10 @@ body > nav .content > figure img {
 }
 
 body > nav .content .hamburger {
-  width: 40px;
-  height: 35px;
+  width: 2.5rem;
+  height: 2.2rem;
   border: 0;
-  border-top: 5px solid black;
+  border-top: 0.3rem solid black;
   background: transparent;
   position: relative;
   -webkit-transition: 0.3s -webkit-transform linear;
@@ -64,7 +64,7 @@ body > nav .content .hamburger:focus::after {
 }
 
 body > nav .content ul {
-  border: 2px dashed red;
+  border: 0.1rem dashed red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,23 +72,23 @@ body > nav .content ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 20px;
-  margin: 20px;
+  padding: 1.25rem;
+  margin: 1.25rem;
 }
 
 body > nav .content ul > li {
-  border: 2px dashed  green;
-  padding: 5px;
+  border: 0.1rem dashed  green;
+  padding: 0.3rem;
 }
 
 body > nav .content ul > li a {
-  border: 2px dashed red;
+  border: 0.1rem dashed red;
   text-decoration: none;
   color: inherit;
 }
 
 body > nav header {
-  border: 2px dashed green;
+  border: 0.1rem dashed green;
   height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,16 +118,16 @@ body > nav header > section {
 }
 
 body > nav header > section > h1 {
-  padding: 35px;
-  margin-top: 60px;
-  font-size: 40px;
+  padding: 2.2rem;
+  margin-top: 3.75rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 body > nav header > section p {
   color: green;
-  font-size: 40px;
-  padding: 20px;
+  font-size: 2.5rem;
+  padding: 1.25rem;
   margin: 0;
 }
 
@@ -138,7 +138,7 @@ body > nav header > section div {
 }
 
 body > nav header > section div > a {
-  border: 2px dashed red;
+  border: 0.1rem dashed red;
   text-decoration: none;
   color: inherit;
   display: -webkit-box;
@@ -158,12 +158,12 @@ body > nav header > section div > a {
 }
 
 body main > section {
-  border: 2px dashed blue;
-  padding: 15px;
+  border: 0.1rem dashed blue;
+  padding: 0.9rem;
 }
 
 body main > section p {
-  border: 2px dashed red;
+  border: 0.1rem dashed red;
 }
 
 body main > section:nth-child(1) {
@@ -176,6 +176,6 @@ body main > section:nth-child(2) {
 }
 
 body main > section:nth-child(3) {
-  border: 2px dashed green;
+  border: 0.1rem dashed green;
 }
 /*# sourceMappingURL=style.css.map */

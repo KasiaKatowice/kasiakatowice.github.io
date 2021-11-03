@@ -9,7 +9,7 @@ body{
         .content{
             >figure{
                 img{
-                    max-width: 100px;
+                    max-width: 6.25rem;
                     display: flex;
                     align-items: center;
                     text-align: center;
@@ -17,10 +17,10 @@ body{
                 }
             }
             .hamburger{
-                width: 40px;
-                height: 35px;
+                width: 2.5rem;
+                height: 2.2rem;
                 border: 0;
-                border-top: 5px solid black;
+                border-top: 0.3rem solid black;
                 background: transparent;
                 position: relative;
                 transition: 0.3s transform linear;
@@ -48,16 +48,16 @@ body{
             }
 
             ul{
-                border: 2px dashed red;
+                border: 0.1rem dashed red;
                 display: flex;
                 flex-direction: column;
-                padding: 20px;
-                margin: 20px;
+                padding: 1.25rem;
+                margin: 1.25rem;
                 >li{
-                    border: 2px dashed  green;
-                    padding: 5px;
+                    border: 0.1rem dashed  green;
+                    padding: 0.3rem;
                     a{
-                        border: 2px dashed red;
+                        border: 0.1rem dashed red;
                         text-decoration: none;
                         color: inherit;
                     }
@@ -73,7 +73,7 @@ body{
     
 
     header{
-            border: 2px dashed green;
+            border: 0.1rem dashed green;
             height: 90vh;
             display: flex;
             align-items: center;
@@ -90,21 +90,21 @@ body{
                 align-items: flex-start;
                 
             >h1{
-                padding: 35px;
-                margin-top: 60px;
-                font-size: 40px;  
+                padding: 2.2rem;
+                margin-top: 3.75rem;
+                font-size: 2.5rem;  
                 text-align: center;     
                 }
                 p{
                     color: green;
-                    font-size: 40px;
-                    padding: 20px;
+                    font-size: 2.5rem;
+                    padding: 1.25rem;
                     margin: 0;
                 }
             div{
             display: flex;
                 >a{
-                    border: 2px dashed red;
+                    border: 0.1rem dashed red;
                     text-decoration: none;
                     color: inherit;
                     display: flex;
@@ -120,10 +120,10 @@ body{
     }
     main{
         >section{
-            border: 2px dashed blue;
-            padding: 15px;
+            border: 0.1rem dashed blue;
+            padding: 0.9rem;
             p{
-                border: 2px dashed red;
+                border: 0.1rem dashed red;
             }
             &:nth-child(1){
                 color: white;
@@ -133,7 +133,7 @@ body{
                 background-color: yellow;
             }
             &:nth-child(3){
-                border: 2px dashed green;
+                border: 0.1rem dashed green;
             }
         }
     }
