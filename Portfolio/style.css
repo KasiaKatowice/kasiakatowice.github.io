@@ -4,62 +4,87 @@
 }
 
 body {
-  background-image: url("https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747783_960_720.jpg");
-}
-
-body > nav .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  background-image: url("/img/woman.webp");
 }
 
 body > nav .content > figure img {
-  max-width: 70px;
-}
-
-body > nav .content .item {
-  border: 2px dashed red;
-  text-align: center;
+  max-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 10px;
-  padding: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  text-align: center;
+  margin: auto;
 }
 
-body > nav .content .item > a {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  text-decoration: none;
-  color: inherit;
-  background-color: beige;
-  -webkit-transition: 1s;
-  transition: 1s;
+body > nav .content .hamburger {
+  width: 40px;
+  height: 35px;
+  border: 0;
+  border-top: 5px solid black;
+  background: transparent;
+  position: relative;
+  -webkit-transition: 0.3s -webkit-transform linear;
+  transition: 0.3s -webkit-transform linear;
+  transition: 0.3s transform linear;
+  transition: 0.3s transform linear, 0.3s -webkit-transform linear;
+}
+
+body > nav .content .hamburger::before, body > nav .content .hamburger::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid black;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+body > nav .content .hamburger::after {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: 0.3s -webkit-transform linear;
+  transition: 0.3s -webkit-transform linear;
+  transition: 0.3s transform linear;
+  transition: 0.3s transform linear, 0.3s -webkit-transform linear;
+}
+
+body > nav .content .hamburger:focus {
+  -webkit-transform: rotate(45deg) translateY(10px);
+          transform: rotate(45deg) translateY(10px);
+  border: none;
+}
+
+body > nav .content .hamburger:focus::after {
+  -webkit-transform: rotate(-90deg) translateX(-10px);
+          transform: rotate(-90deg) translateX(-10px);
+}
+
+body > nav .content ul {
+  border: 2px dashed red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+body > nav .content ul > li {
+  border: 2px dashed  green;
+  padding: 5px;
+}
+
+body > nav .content ul > li a {
+  border: 2px dashed red;
+  text-decoration: none;
+  color: inherit;
 }
 
 body > nav header {
