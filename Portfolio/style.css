@@ -8,9 +8,11 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
-body > nav .content > figure img {
+body > .site-nav .content > figure img {
   max-width: 6.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,163 +24,23 @@ body > nav .content > figure img {
   margin: auto;
 }
 
-body > nav .content .hamburger {
-  width: 2.5rem;
-  height: 2.2rem;
+body > .site-nav .content .site-nav-trigger {
   border: 0;
-  border-top: 0.3rem solid black;
-  background: transparent;
-  position: relative;
-  -webkit-transition: 0.3s -webkit-transform linear;
-  transition: 0.3s -webkit-transform linear;
-  transition: 0.3s transform linear;
-  transition: 0.3s transform linear, 0.3s -webkit-transform linear;
+  border-radius: 0.3rem;
+  background: white;
 }
 
-body > nav .content .hamburger::before, body > nav .content .hamburger::after {
-  content: "";
+body > .site-nav .content .site-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-top: 5px solid black;
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
 }
 
-body > nav .content .hamburger::after {
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
-  -webkit-transition: 0.3s -webkit-transform linear;
-  transition: 0.3s -webkit-transform linear;
-  transition: 0.3s transform linear;
-  transition: 0.3s transform linear, 0.3s -webkit-transform linear;
-}
-
-body > nav .content .hamburger:focus {
-  -webkit-transform: rotate(45deg) translateY(10px);
-          transform: rotate(45deg) translateY(10px);
-  border: none;
-}
-
-body > nav .content .hamburger:focus::after {
-  -webkit-transform: rotate(-90deg) translateX(-10px);
-          transform: rotate(-90deg) translateX(-10px);
-}
-
-body > nav .content ul {
-  border: 0.1rem dashed red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 1.25rem;
-  margin: 1.25rem;
-}
-
-body > nav .content ul > li {
-  border: 0.1rem dashed  green;
-  padding: 0.3rem;
-}
-
-body > nav .content ul > li a {
-  border: 0.1rem dashed red;
-  text-decoration: none;
-  color: inherit;
-}
-
-body > nav header {
-  border: 0.1rem dashed green;
-  height: 90vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body > nav header img {
-  width: 100%;
-}
-
-body > nav header > section {
-  text-align: center;
-  padding-left: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-body > nav header > section > h1 {
-  padding: 2.2rem;
-  margin-top: 3.75rem;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-body > nav header > section p {
-  color: green;
-  font-size: 2.5rem;
-  padding: 1.25rem;
-  margin: 0;
-}
-
-body > nav header > section div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-body > nav header > section div > a {
-  border: 0.1rem dashed red;
-  text-decoration: none;
-  color: inherit;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-body main > section {
-  border: 0.1rem dashed blue;
-  padding: 0.9rem;
-}
-
-body main > section p {
-  border: 0.1rem dashed red;
-}
-
-body main > section:nth-child(1) {
-  color: white;
-  background-color: green;
-}
-
-body main > section:nth-child(2) {
-  background-color: yellow;
-}
-
-body main > section:nth-child(3) {
-  border: 0.1rem dashed green;
+body .about {
+  border: 2px dashed red;
+  padding: 70px;
 }
 /*# sourceMappingURL=style.css.map */
