@@ -8,18 +8,25 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  padding: 0;
-  margin: 0;
+  
+  padding: 15px;
+  margin: 15px;
 }
 
-body .content > figure img {
-  max-width: 30%;
+body .content > div{
   padding: 0;
   margin: auto;
   display: flex;
   justify-content: center;
   text-align: center;
 }
+body .content > div img{
+  max-width: 30%;
+}
+body .content > div > a{
+  display: contents;
+}
+
 
 .site-nav {
   height: 1.25rem;
@@ -34,9 +41,7 @@ body .content > figure img {
 .site-menu {
   display: flex;
   top: 1.25rem;
-  border: 1px solid black;
   right: 0;
-  background: white;
   position: absolute;
   
 }
@@ -57,6 +62,7 @@ ol{
 }
 ol > li > a{
   background: orange;
+  border: 1px solid black;
   text-decoration: none;
   font-size: 1.40rem;
 }
@@ -68,10 +74,12 @@ ol > li > a:hover{
 }
 
 ol > li > ul > li{
-  float: left;
   background-color: rgb(235, 234, 180);
   width: 6rem;
-  margin-left: 0.16rem;
+  border: 2px dashed red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 ol > li > ul {
@@ -89,7 +97,6 @@ ul > li:first-child {
 }
 
 ol > li > ul > li > a{
-  display: block;
   border: 1px solid #fff;
   color: #000;
   text-decoration: none;
@@ -104,7 +111,46 @@ ul > li:hover{
 }
 
 .about {
-  border: 2px dashed red;
-  padding: 70px;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-/*# sourceMappingURL=style.css.map */
+
+.about h1{
+  text-transform: uppercase;
+}
+
+.about p{
+  margin: 0.3rem auto;
+  color: blue;
+  background: #deb887;
+  font-size: 1.25rem;
+}
+
+#about_me{
+  padding: 0.6rem;
+  margin: 0.3rem auto;
+ 
+}
+
+#about_me h2{
+  font-size: 2rem;
+  color: red;
+  margin: 15px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#about_me img{
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#about_me p{
+  font-size: 1.20rem;
+  padding: 10px;
+  color: #fff;
+}
+
