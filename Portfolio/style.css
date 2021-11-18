@@ -134,7 +134,7 @@ ul > li:hover{
  
 }
 
-#about_me h2{
+.about_me h2{
   font-size: 2rem;
   color: red;
   margin: 15px 15px;
@@ -142,13 +142,13 @@ ul > li:hover{
   justify-content: center;
 }
 
-#about_me img{
+.about_me img{
   margin: auto;
   display: flex;
   align-items: center;
 }
 
-#about_me p{
+.about_me p{
   font-size: 1.20rem;
   padding: 10px;
   color: #fff;
