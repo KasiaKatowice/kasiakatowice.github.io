@@ -79,7 +79,10 @@ section h3 {
 
 section .contacts {
   margin: 0.31rem;
-}
+  padding: 0,5rem;
+  
+  
+  }
 
 section .contacts a {
   -webkit-box-pack: justify;

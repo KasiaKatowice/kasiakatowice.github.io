@@ -1,0 +1,22 @@
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061__340.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.contact{
+   color: white;
+}
+
+.contact li{
+   display: flex;
+   justify-content: flex-start;
+   margin: 10px;
+}
+
+.contact a{
+   border: 2px dashed red;
+   display: block;
+   font-size: 1.20rem;
+   color: whitesmoke;
+}
