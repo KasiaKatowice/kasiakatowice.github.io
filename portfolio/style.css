@@ -1,0 +1,10 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/18/19/55/woman-3687080__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header figure img{
+    max-width: 300px;
+}
