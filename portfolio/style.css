@@ -4,6 +4,10 @@ body{
     background-size: cover;
 }
 
+header{
+    display: flex;
+}
+
 header figure img{
     max-width: 15%;
 }
@@ -31,15 +35,22 @@ ol > li:first-child{
     margin-left: 0;
 }
 
+ol > li > ul{
+    display: none;
+    transition: 1s;
+}
+
+ol > li:hover > ul{
+    display: block;   
+}
 ol > li > a{
-    border: 2px dashed red;
     display: block;
     text-decoration: none;
     color: #000;
     padding: 0 0.3rem;
 }
 
-ol > li > a:hover{
+ol > li:hover > a{
     color: #09C;
 }
 
@@ -54,10 +65,32 @@ ol > li > ul > li{
     margin: 0;
 }
 
+ol > li > ul > li:hover{
+    background-color: #DDD;
+}
+
+ol > li > ul > li:hover a{
+    color: #09c;
+}
+
 ol > li > ul > li > a{
     border-top: 0.06rem solid #FFF;
     text-decoration: none;
     background-color: azure;
     color: #000;
     padding: 0 0.5rem;
+}
+
+article h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+
+article p{
+    border: 2px dashed red;
+    text-align: center;
+    font-size: 1.30rem;
+    color: blue;
 }
