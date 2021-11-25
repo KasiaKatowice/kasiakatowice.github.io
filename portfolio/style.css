@@ -6,10 +6,18 @@ body{
 
 header{
     display: flex;
+    position: relative;
 }
 
 header figure img{
     max-width: 15%;
+    text-align: center;
+}
+
+.site-menu{
+    margin-top: 25px;
+    right: 0;
+    position: absolute;
 }
 
 ol{
