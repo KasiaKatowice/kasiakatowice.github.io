@@ -1,0 +1,39 @@
+body{
+    background: yellow;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2{
+    
+
+}
+
+.project1{
+    border: 2px solid red;
+    max-width: 50%;
+    margin: 20px 10px 30px 15px;
+    padding: 10px;
+}
+
+.project1 h3{
+    font-size: 1.20rem;
+}
+
+.project1 img{
+    max-width: 100%;
+}
+
+.project1 a{
+    display: block;
+    border: 1px solid #000;
+    background: ivory;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.20rem;
+}
+
+
+
