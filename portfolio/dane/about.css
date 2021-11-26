@@ -3,33 +3,29 @@ body{
 }
 
 .about{
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    
 }
 
 .about img{
     max-width: 200px;
-    margin: auto;
-    padding: 10px;
-    justify-content: center;
+    padding: 20px;
 }
 
 .about h2{
     color: red;
-    text-align: center;
     font-size: 1.70rem;
 }
 
 .about p{
     border: 2px solid red;
-    
     width: 500px;
-    height: 300px;
-    margin: auto;
-    margin-top: 40px;
-    padding: 20px;
+    height: 260px;
+    margin: 40px auto;
+    padding: 15px;
     color: #fff;
     font-size: 1.20rem;
-    text-align: justify;  
-    align-content: center; 
 }
