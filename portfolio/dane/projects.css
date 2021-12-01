@@ -1,5 +1,13 @@
 body{
-    background: yellow;
+    background: lightgreen;
+}
+
+body h1{
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.50rem;
 }
 .container{
     display: flex;
@@ -7,18 +15,23 @@ body{
 }
 
 .container h2{
-    
+    color: blue;
+    margin: 20px 15px;
 
 }
 
 .project1{
-    border: 2px solid red;
     max-width: 50%;
     margin: 20px 10px 30px 15px;
     padding: 10px;
 }
 
 .project1 h3{
+    border: 2px solid lightseagreen;
+    border-radius: 15px;
+    background: lightsteelblue;
+    text-align: center;
+    padding: 10px;
     font-size: 1.20rem;
 }
 
