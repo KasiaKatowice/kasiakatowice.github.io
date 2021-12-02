@@ -11,9 +11,9 @@ body{
 }
 
 .about img{
-    max-width: 200px;
-    padding: 20px;
-    margin: 20px auto;
+    max-width: 12.5rem;
+    padding: 1.2rem;
+    margin: 1.2rem auto;
 }
 
 .about h2{
@@ -22,10 +22,10 @@ body{
 }
 
 .about p{
-    border: 2px solid red;
+    border: 0.12rem solid red;
     width: 80%;
-    margin: 15px 10px 20px;
-    padding: 20px;
+    margin: 0.9rem 0.6rem 1.2rem;
+    padding: 1.2rem;
     color: #fff;
     font-size: 1.20rem;
 }
