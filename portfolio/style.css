@@ -101,3 +101,32 @@ article p{
     font-size: 1.30rem;
     color: blue;
 }
+
+footer #contact{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 80px auto 5px 10px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+footer ul li{
+    padding: 5px;
+    display: inline;
+    margin: 0px auto 50px 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin: auto 5px;
+}
+
+footer img{
+    max-width: 50px;
+}
