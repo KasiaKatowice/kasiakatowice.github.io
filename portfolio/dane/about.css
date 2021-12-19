@@ -29,3 +29,12 @@ body{
     color: #fff;
     font-size: 1.20rem;
 }
+
+.return a{
+    border: 2px dashed red;
+    margin: 20px 4rem;
+    padding: 0.6rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
