@@ -1,22 +1,14 @@
-body{
-    display: block;
-    border: 2px dashed red;
-  
-}
-
 div{
     height: 100%;
 }
 
 main{
-    min-height: 340px;
-    width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
-    background-position: center;
+    min-height: 21.2rem;
+    max-width: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-
 }
 header{
     display: flex;
@@ -129,8 +121,6 @@ footer.contact-info{
 
 footer ul{
     list-style-type: none;
-    padding: 0.6rem;
-    margin: 0;
 }
 
 footer ul li{
@@ -153,5 +143,25 @@ footer.information{
     border: 2px dashed green;
     background: whitesmoke;
 }
+
+@media (max-width: 480px) {
+    main {
+        background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    main {
+        background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
+    }
+}
+    
+
 
 
