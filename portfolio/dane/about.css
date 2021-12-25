@@ -31,10 +31,15 @@ body{
 }
 
 .return a{
-    border: 2px dashed red;
     margin: 20px 4rem;
     padding: 0.6rem;
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+.return a:hover {
+    color: lightgreen;
+    text-decoration: underline;
+    transition: 0.15s;
 }

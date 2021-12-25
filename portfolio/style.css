@@ -1,12 +1,23 @@
 body{
     display: block;
     border: 2px dashed red;
-    height: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  
 }
 
+div{
+    height: 100%;
+}
+
+main{
+    min-height: 340px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
 header{
     display: flex;
     position: relative;
@@ -18,7 +29,7 @@ header figure img{
 }
 
 .site-menu{
-    margin-top: 1.56rem;
+    margin-top: 1.6rem;
     right: 0;
     position: absolute;
 }
@@ -29,8 +40,8 @@ ol{
     padding: 0;
     margin: 0;
     font-size: 1.12rem;
-    height: 2em;
-    line-height: 2em;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
     justify-content: right;
     
@@ -105,11 +116,15 @@ article p{
     color: blue;
 }
 
+footer{
+    height: 100%;
+}
+
 footer.contact-info{
     display: flex;
     flex-direction: column;
     padding: 0.9rem;
-    margin: 80px auto 0.3rem 0.6rem;
+    margin: 5rem auto 0.3rem 0.6rem;
 }
 
 footer ul{
@@ -121,7 +136,7 @@ footer ul{
 footer ul li{
     padding: 0.3rem;
     display: inline;
-    margin: 0rem auto 3.1rem 0.6rem;
+    margin: 0 auto 3.1rem 0.6rem;
 }
 
 footer ul li a{
@@ -136,8 +151,7 @@ footer img{
 
 footer.information{
     border: 2px dashed green;
-    background-color: inherit;
-    
+    background: whitesmoke;
 }
 
 
