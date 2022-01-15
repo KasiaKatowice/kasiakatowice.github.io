@@ -1,17 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 div{
     height: 100%;
 }
 
-main{
-    min-height: 21.2rem;
-    max-width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");background-image: url("https://cdn.pixabay.com/photo/2020/05/25/11/11/woman-5218160__340.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
 header{
+    background-color: silver;
     display: flex;
     position: relative;
 }
@@ -96,6 +92,18 @@ ol > li > ul > li > a{
     padding: 0 0.5rem;
 }
 
+main{
+    min-height: 21.2rem;
+    height: 100%;
+    max-width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/10/21/46/laptop-2838917__340.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
 section h1{
     color: blue;
     text-align: center;
@@ -110,12 +118,14 @@ section p{
     color: black;
 }
 
-footer{
+footer {
     height: 100%;    
 }
 
 #contact {
-    padding: 0.5rem;
+   background-color: black;
+   color: white;
+   padding: 0.5rem;
 }
 
 #contact h2 {
@@ -139,17 +149,17 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     padding: 0.3rem;
-    margin: auto 0.3rem;
+    margin: auto 0.8rem;
 }
 
 footer img{
     max-width: 2rem;
 }
 
-footer.information{
-    border: 2px solid green;
-    background: whitesmoke;
-    margin-left: 1rem;
+.information {
+    border: 2px solid red;
+    color: rgb(23, 12, 114);
+    font-size: 1.5rem;
     text-align: center;
 }
 
