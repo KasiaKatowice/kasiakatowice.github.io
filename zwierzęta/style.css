@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: beige;
+}
+
+body div {
+    background: yellowgreen;
+    font-size: 1rem;
+    border: 2px solid black;
+}
+
+.static {
+    background-color: aqua;
+    margin: 5px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+header {
+    
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+.boxes div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    margin: 2%;
+}
+
+.boxes div .click {
+    position: absolute;
+    background-color: bisque;
+    border: 2px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    opacity: 1;
+    transition: 1s;
+}
+
+.boxes div .click:active {
+    opacity: 0;
+    transition: 1s;
+}
+
+.boxes div:nth-child(1) .img{
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/08/20/35/boxer-930661_960_720.jpg");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.boxes div:nth-child(2) .img{
+    background-image: url("https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__480.jpg");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.boxes div:nth-child(3) .img{
+    background-image: url("https://media.istockphoto.com/photos/lambs-wandering-in-the-scottish-highlands-uk-picture-id1327862986?b=1&k=20&m=1327862986&s=170667a&w=0&h=ZEgTL6ajghbZI7lKpkT95jBSAruUYqKTSbahfaN63us=");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.boxes div:nth-child(4) .img{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/07/16/15/pony-4110061__340.jpg");
+    margin: 0;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+.info {
+    position: relative;
+    border: 2px;
+    background: black;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.info p {
+   color: white;
+}
