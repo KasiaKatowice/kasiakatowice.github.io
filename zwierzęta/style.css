@@ -20,8 +20,8 @@ body div {
 }
 
 header {
-    
-    background: white;
+    background: black;
+    color: white;
     margin: 5px;
     padding: 5px;
     text-align: center;
