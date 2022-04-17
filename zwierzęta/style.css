@@ -1,4 +1,4 @@
-* {
+:root {
     box-sizing: border-box;
 }
 
@@ -65,39 +65,30 @@ header {
 
 .boxes div:nth-child(1) .img{
     background-image: url("https://cdn.pixabay.com/photo/2015/09/08/20/35/boxer-930661_960_720.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    
 }
 
 .boxes div:nth-child(2) .img{
     background-image: url("https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__480.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+   
 }
 
 .boxes div:nth-child(3) .img{
     background-image: url("https://media.istockphoto.com/photos/lambs-wandering-in-the-scottish-highlands-uk-picture-id1327862986?b=1&k=20&m=1327862986&s=170667a&w=0&h=ZEgTL6ajghbZI7lKpkT95jBSAruUYqKTSbahfaN63us=");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+ 
 }
 
 .boxes div:nth-child(4) .img{
     background-image: url("https://cdn.pixabay.com/photo/2019/04/07/16/15/pony-4110061__340.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    
+    background-size: 100% 100%;
+      
 }
 
 footer {
@@ -116,4 +107,11 @@ footer {
 
 .info p {
    color: white;
+}
+
+@media(max-width:720px) {
+    .boxes div {
+        width: 80vw;
+        height: 80vh;
+    }
 }
