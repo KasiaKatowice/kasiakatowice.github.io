@@ -9,21 +9,21 @@ body {
 body div {
     background: yellowgreen;
     font-size: 1rem;
-    border: 2px solid black;
+    border: 0.1rem solid black;
 }
 
 .static {
     background-color: aqua;
-    margin: 5px;
-    padding: 2px;
-    border: 2px solid black;
+    margin: 0.3rem;
+    padding: 0.2rem;
+    border: 0.1rem solid black;
 }
 
 header {
     background: black;
     color: white;
-    margin: 5px;
-    padding: 5px;
+    margin: 0.3rem;
+    padding: 0.3rem;
     text-align: center;
 }
 
@@ -31,14 +31,14 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2%;
+    margin: 2%;
 }
 
 .boxes div {
     position: relative;
     width: 33%;
     height: 8rem;
-    margin: 2%;
+    margin: 0 auto;
 }
 
 .boxes div .img {
@@ -48,8 +48,7 @@ header {
 .boxes div .click {
     position: absolute;
     background-color: bisque;
-    border: 2px;
-    margin: 0;
+    margin: 2px auto;
     top: 0;
     left: 0;
     width: 100%;
@@ -69,6 +68,7 @@ header {
 
 .boxes div:nth-child(1) .img{
     background-image: url("https://cdn.pixabay.com/photo/2015/09/08/20/35/boxer-930661_960_720.jpg");
+    background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
