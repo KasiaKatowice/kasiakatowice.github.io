@@ -36,9 +36,13 @@ header {
 
 .boxes div {
     position: relative;
-    width: 40vw;
-    height: 40vh;
+    width: 33%;
+    height: 8rem;
     margin: 2%;
+}
+
+.boxes div .img {
+    width: 100%;
 }
 
 .boxes div .click {
