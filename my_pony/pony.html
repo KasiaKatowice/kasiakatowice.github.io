@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pony.css">
+    <title>Ośrodek Pony</title>
+</head>
+<body>
+    <header>
+        <h1>Ośrodek Jeździecki "Pony"</h1>
+              <nav class="site-menu">
+                <ol>
+                    <li>
+                        <a href="#">Menu</a>
+                        <ul>
+                            <li>
+                                <a href="#">O nas</a>
+                            </li>
+                            <li>
+                                <a href="#">Oferta</a>
+                            </li>
+                            <li>
+                                <a href="#">Cennik</a>
+                            </li>
+                            <li>
+                                <a href="#">Rejestracja</a>
+                            </li>
+                            <li>
+                                <a href="#">Kontakt</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+              </nav>
+    </header>
+   <main>
+        <section id="about">
+            <h3>O nas</h3>
+                <p>
+                    Ośrodek Pony prowadzi szkolenia dla dorosłych i dzieci. Istniejemy od 2010 roku.
+                    Ośrodek mieści się w malowniczo położonym krajobrazie. Blisko jest las i rzeka.
+                </p>
+        </section>
+        <section id="offer">
+            <h3>Oferta</h3>
+                <p>
+                    Szkolenia dla dzieci od piątego roku życia i dorosłych. Indywidualne prowadzenie przez doświadczonych 
+                    instruktorów. 
+                </p>
+        </section> 
+            <section id="price_list">
+                <h3>Cennik</h3>
+                <p>
+                    <ul>Dorośli
+                        <li>1 godzina - 40 zł</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul>Dzieci
+                        <li>1 godzina - 15 zł</li>
+                    </ul>
+                </p>
+            </section>
+            <section id="register">
+                <h3>Rejestracja</h3>
+            
+                <form action="pony.php" method="post">
+                    <p>
+                    <label>Imię i nazwisko:
+                        <input type="text" name="username" placeholder="wpisz imię i nazwisko" required>
+                    </label>
+                    </p>
+                    <p>
+                    <label>Adres zamieszkania:
+                        <input type="text" name="adress" placeholder="wpisz miasto" required>
+                    </label>
+                    </p>
+                   
+                    <p>
+                    <label>Adres mailowy:
+                        <input type="email" name="email" placeholder="wpisz email" required>
+                    </label>
+                    </p>
+                    <p>
+                    <label>Hasło:
+                        <input type="password" name="password" placeholder="wpisz hasło" required>
+                    </label>
+                    </p>
+                    <p>
+                    <label>Wiek:
+                        <input type="number" name="age" min="5" max="100">
+                    </label>
+                    </p>
+                    <p>
+                      <textarea name="bio" cols="30" rows="10" placeholder="Tutaj wpisz swoje pytania i uwagi :-)"></textarea>
+                    </p>
+                   <p>
+                    <button type="submit">Zarejestruj się</button>
+                   </p>
+                </form>
+            </section>
+            <section id="contact">
+                <h3>Kontakt</h3>
+                <div class="adress">Adres:
+                    <p>
+                        ul. Roweckiego 15 <br>
+                        40-748 Zarzecze
+                    </p>
+                    <ol>
+                        <li><a href="mailto:tatry431@gmail.com"><img src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731__340.png" alt="email"></a></li>
+                        <li><a href="tel:+48504595864"><img src="https://cdn.pixabay.com/photo/2017/01/31/14/36/blue-2024619__340.png" alt="telefon"></a></li>
+                    </ol>
+            </div>
+            </section>
+   </main>
+   <footer>
+    <div class="note">
+        <p>
+            Copyright by Katarzyna Borowczyk
+        </p>
+    </div>
+   </footer>
+</body>
+</html>
