@@ -12,7 +12,7 @@ header {
     display: flex;
 }
 
-h1 {
+#pony {
     color: red;
     margin: auto;
     text-align: center;
@@ -176,6 +176,16 @@ ol > li > ul > li > a {
 footer {
     text-align: center;
 }
+
+footer a {
+    border: 2px solid red;
+    background-color: #FFF;
+    color: black;
+    text-decoration: none;
+    padding: 0.3rem;
+}
+
+
 
 
 
